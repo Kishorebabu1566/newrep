@@ -1,0 +1,6 @@
+framework module Pods_BrewAppsKishoreTask_BrewAppsKishoreTaskUITests {
+  umbrella header "Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

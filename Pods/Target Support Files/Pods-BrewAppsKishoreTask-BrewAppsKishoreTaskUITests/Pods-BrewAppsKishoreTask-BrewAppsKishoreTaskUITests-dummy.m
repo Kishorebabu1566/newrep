@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_BrewAppsKishoreTask_BrewAppsKishoreTaskUITests : NSObject
+@end
+@implementation PodsDummy_Pods_BrewAppsKishoreTask_BrewAppsKishoreTaskUITests
+@end

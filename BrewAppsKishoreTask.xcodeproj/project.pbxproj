@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28FA623E938224811BAFEB27 /* Pods_BrewAppsKishoreTask_BrewAppsKishoreTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE7BC34D1C548DB59BB510A /* Pods_BrewAppsKishoreTask_BrewAppsKishoreTaskUITests.framework */; };
+		7B2EB8612756683F00DA16E1 /* NowPlayingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2EB8602756683F00DA16E1 /* NowPlayingViewModel.swift */; };
+		7B2EB8692756685400DA16E1 /* NowPlayingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2EB8682756685400DA16E1 /* NowPlayingDataModel.swift */; };
+		7B82AD2B27573B6200111618 /* TrailerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82AD2A27573B6200111618 /* TrailerViewModel.swift */; };
+		7B82AD3327573B8400111618 /* TrailerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82AD3227573B8400111618 /* TrailerDataModel.swift */; };
+		7B82AD3F275746E800111618 /* PopularMoviesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82AD3D275746E800111618 /* PopularMoviesCVC.swift */; };
+		7B82AD40275746E800111618 /* PopularMoviesCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B82AD3E275746E800111618 /* PopularMoviesCVC.xib */; };
+		7B82AD462757470600111618 /* UnPopularMoviesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82AD442757470600111618 /* UnPopularMoviesCVC.swift */; };
+		7B82AD472757470600111618 /* UnPopularMoviesCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B82AD452757470600111618 /* UnPopularMoviesCVC.xib */; };
+		7BAA2D1B275656B400851C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D1A275656B400851C9B /* AppDelegate.swift */; };
+		7BAA2D1F275656B400851C9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D1E275656B400851C9B /* ViewController.swift */; };
+		7BAA2D22275656B400851C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA2D20275656B400851C9B /* Main.storyboard */; };
+		7BAA2D25275656B500851C9B /* BrewAppsKishoreTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D23275656B500851C9B /* BrewAppsKishoreTask.xcdatamodeld */; };
+		7BAA2D27275656CA00851C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA2D26275656CA00851C9B /* Assets.xcassets */; };
+		7BAA2D2A275656CA00851C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAA2D28275656CA00851C9B /* LaunchScreen.storyboard */; };
+		7BAA2D35275656CB00851C9B /* BrewAppsKishoreTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D34275656CB00851C9B /* BrewAppsKishoreTaskTests.swift */; };
+		7BAA2D40275656CB00851C9B /* BrewAppsKishoreTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D3F275656CB00851C9B /* BrewAppsKishoreTaskUITests.swift */; };
+		7BAA2D5D2756593800851C9B /* CustomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D5B2756593800851C9B /* CustomeView.swift */; };
+		7BAA2D66275659A600851C9B /* GifImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D65275659A600851C9B /* GifImagesVC.swift */; };
+		7BAA2D6F27565A5D00851C9B /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D6E27565A5D00851C9B /* Connections.swift */; };
+		7BAA2D7727565AC200851C9B /* APIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D7627565AC200851C9B /* APIList.swift */; };
+		7BAA2D7C27565B4900851C9B /* ConstantsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D7B27565B4900851C9B /* ConstantsString.swift */; };
+		7BDD9AB427577E6000FC13EA /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD9AB327577E6000FC13EA /* MovieDetailVC.swift */; };
+		7BDD9ACB2757927D00FC13EA /* CoreDataMain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD9AC92757927D00FC13EA /* CoreDataMain.xcdatamodeld */; };
+		BFDFED0ADCB30920B7878D6C /* Pods_BrewAppsKishoreTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD9F8D842CE16C20B739745 /* Pods_BrewAppsKishoreTask.framework */; };
+		F53B253A3AC8390F6AF84B77 /* Pods_BrewAppsKishoreTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4A30AE1517852620B4A674 /* Pods_BrewAppsKishoreTaskTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BAA2D31275656CB00851C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BAA2D0F275656B400851C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BAA2D16275656B400851C9B;
+			remoteInfo = BrewAppsKishoreTask;
+		};
+		7BAA2D3C275656CB00851C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BAA2D0F275656B400851C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BAA2D16275656B400851C9B;
+			remoteInfo = BrewAppsKishoreTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD9F8D842CE16C20B739745 /* Pods_BrewAppsKishoreTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrewAppsKishoreTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1682989DB5EA619D743AD33F /* Pods-BrewAppsKishoreTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewAppsKishoreTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-BrewAppsKishoreTaskTests/Pods-BrewAppsKishoreTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B3B3EAB39D8038A10BE216C /* Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		365A0EB4BC0347B98A4787B6 /* Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C4A30AE1517852620B4A674 /* Pods_BrewAppsKishoreTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrewAppsKishoreTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E665C320B18A859A114214 /* Pods-BrewAppsKishoreTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewAppsKishoreTask.debug.xcconfig"; path = "Target Support Files/Pods-BrewAppsKishoreTask/Pods-BrewAppsKishoreTask.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2EB8602756683F00DA16E1 /* NowPlayingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewModel.swift; sourceTree = "<group>"; };
+		7B2EB8682756685400DA16E1 /* NowPlayingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingDataModel.swift; sourceTree = "<group>"; };
+		7B82AD2A27573B6200111618 /* TrailerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewModel.swift; sourceTree = "<group>"; };
+		7B82AD3227573B8400111618 /* TrailerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerDataModel.swift; sourceTree = "<group>"; };
+		7B82AD3D275746E800111618 /* PopularMoviesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesCVC.swift; sourceTree = "<group>"; };
+		7B82AD3E275746E800111618 /* PopularMoviesCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularMoviesCVC.xib; sourceTree = "<group>"; };
+		7B82AD442757470600111618 /* UnPopularMoviesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnPopularMoviesCVC.swift; sourceTree = "<group>"; };
+		7B82AD452757470600111618 /* UnPopularMoviesCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnPopularMoviesCVC.xib; sourceTree = "<group>"; };
+		7BAA2D17275656B400851C9B /* BrewAppsKishoreTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewAppsKishoreTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAA2D1A275656B400851C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BAA2D1E275656B400851C9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BAA2D21275656B400851C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BAA2D24275656B500851C9B /* BrewAppsKishoreTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrewAppsKishoreTask.xcdatamodel; sourceTree = "<group>"; };
+		7BAA2D26275656CA00851C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BAA2D29275656CA00851C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BAA2D2B275656CA00851C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAA2D30275656CB00851C9B /* BrewAppsKishoreTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewAppsKishoreTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAA2D34275656CB00851C9B /* BrewAppsKishoreTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewAppsKishoreTaskTests.swift; sourceTree = "<group>"; };
+		7BAA2D36275656CB00851C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAA2D3B275656CB00851C9B /* BrewAppsKishoreTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewAppsKishoreTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAA2D3F275656CB00851C9B /* BrewAppsKishoreTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewAppsKishoreTaskUITests.swift; sourceTree = "<group>"; };
+		7BAA2D41275656CB00851C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAA2D5B2756593800851C9B /* CustomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeView.swift; sourceTree = "<group>"; };
+		7BAA2D65275659A600851C9B /* GifImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImagesVC.swift; sourceTree = "<group>"; };
+		7BAA2D6E27565A5D00851C9B /* Connections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connections.swift; sourceTree = "<group>"; };
+		7BAA2D7627565AC200851C9B /* APIList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIList.swift; sourceTree = "<group>"; };
+		7BAA2D7B27565B4900851C9B /* ConstantsString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsString.swift; sourceTree = "<group>"; };
+		7BDD9AB327577E6000FC13EA /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
+		7BDD9ACA2757927D00FC13EA /* CoreDataMain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataMain.xcdatamodel; sourceTree = "<group>"; };
+		A0A5AE99EB297059A5D74065 /* Pods-BrewAppsKishoreTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewAppsKishoreTaskTests.release.xcconfig"; path = "Target Support Files/Pods-BrewAppsKishoreTaskTests/Pods-BrewAppsKishoreTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFE7BC34D1C548DB59BB510A /* Pods_BrewAppsKishoreTask_BrewAppsKishoreTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrewAppsKishoreTask_BrewAppsKishoreTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A207AAF4BF637B390FA66B /* Pods-BrewAppsKishoreTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewAppsKishoreTask.release.xcconfig"; path = "Target Support Files/Pods-BrewAppsKishoreTask/Pods-BrewAppsKishoreTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BAA2D14275656B400851C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDFED0ADCB30920B7878D6C /* Pods_BrewAppsKishoreTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAA2D2D275656CB00851C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53B253A3AC8390F6AF84B77 /* Pods_BrewAppsKishoreTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAA2D38275656CB00851C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FA623E938224811BAFEB27 /* Pods_BrewAppsKishoreTask_BrewAppsKishoreTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B2EB85F2756681000DA16E1 /* NowPlayingModels */ = {
+			isa = PBXGroup;
+			children = (
+				7B2EB8602756683F00DA16E1 /* NowPlayingViewModel.swift */,
+				7B2EB8682756685400DA16E1 /* NowPlayingDataModel.swift */,
+			);
+			path = NowPlayingModels;
+			sourceTree = "<group>";
+		};
+		7B82AD29275739B800111618 /* TrailerModels */ = {
+			isa = PBXGroup;
+			children = (
+				7B82AD2A27573B6200111618 /* TrailerViewModel.swift */,
+				7B82AD3227573B8400111618 /* TrailerDataModel.swift */,
+			);
+			path = TrailerModels;
+			sourceTree = "<group>";
+		};
+		7BAA2D0E275656B400851C9B = {
+			isa = PBXGroup;
+			children = (
+				7BAA2D19275656B400851C9B /* BrewAppsKishoreTask */,
+				7BAA2D33275656CB00851C9B /* BrewAppsKishoreTaskTests */,
+				7BAA2D3E275656CB00851C9B /* BrewAppsKishoreTaskUITests */,
+				7BAA2D18275656B400851C9B /* Products */,
+				9F3C1C881D3AB0F5A5043DE7 /* Pods */,
+				DC9FB8F45EBB062AE313029C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BAA2D18275656B400851C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA2D17275656B400851C9B /* BrewAppsKishoreTask.app */,
+				7BAA2D30275656CB00851C9B /* BrewAppsKishoreTaskTests.xctest */,
+				7BAA2D3B275656CB00851C9B /* BrewAppsKishoreTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BAA2D19275656B400851C9B /* BrewAppsKishoreTask */ = {
+			isa = PBXGroup;
+			children = (
+				7B82AD29275739B800111618 /* TrailerModels */,
+				7B2EB85F2756681000DA16E1 /* NowPlayingModels */,
+				7BAA2D6D27565A2200851C9B /* API'S Models */,
+				7BAA2D612756595F00851C9B /* Gif's */,
+				7BAA2D1A275656B400851C9B /* AppDelegate.swift */,
+				7BAA2D1E275656B400851C9B /* ViewController.swift */,
+				7BAA2D5B2756593800851C9B /* CustomeView.swift */,
+				7BAA2D20275656B400851C9B /* Main.storyboard */,
+				7BAA2D26275656CA00851C9B /* Assets.xcassets */,
+				7BAA2D28275656CA00851C9B /* LaunchScreen.storyboard */,
+				7BAA2D2B275656CA00851C9B /* Info.plist */,
+				7BAA2D23275656B500851C9B /* BrewAppsKishoreTask.xcdatamodeld */,
+				7B82AD3D275746E800111618 /* PopularMoviesCVC.swift */,
+				7B82AD3E275746E800111618 /* PopularMoviesCVC.xib */,
+				7B82AD442757470600111618 /* UnPopularMoviesCVC.swift */,
+				7B82AD452757470600111618 /* UnPopularMoviesCVC.xib */,
+				7BDD9AB327577E6000FC13EA /* MovieDetailVC.swift */,
+				7BDD9AC92757927D00FC13EA /* CoreDataMain.xcdatamodeld */,
+			);
+			path = BrewAppsKishoreTask;
+			sourceTree = "<group>";
+		};
+		7BAA2D33275656CB00851C9B /* BrewAppsKishoreTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA2D34275656CB00851C9B /* BrewAppsKishoreTaskTests.swift */,
+				7BAA2D36275656CB00851C9B /* Info.plist */,
+			);
+			path = BrewAppsKishoreTaskTests;
+			sourceTree = "<group>";
+		};
+		7BAA2D3E275656CB00851C9B /* BrewAppsKishoreTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA2D3F275656CB00851C9B /* BrewAppsKishoreTaskUITests.swift */,
+				7BAA2D41275656CB00851C9B /* Info.plist */,
+			);
+			path = BrewAppsKishoreTaskUITests;
+			sourceTree = "<group>";
+		};
+		7BAA2D612756595F00851C9B /* Gif's */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA2D65275659A600851C9B /* GifImagesVC.swift */,
+			);
+			path = "Gif's";
+			sourceTree = "<group>";
+		};
+		7BAA2D6D27565A2200851C9B /* API'S Models */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA2D6E27565A5D00851C9B /* Connections.swift */,
+				7BAA2D7627565AC200851C9B /* APIList.swift */,
+				7BAA2D7B27565B4900851C9B /* ConstantsString.swift */,
+			);
+			path = "API'S Models";
+			sourceTree = "<group>";
+		};
+		9F3C1C881D3AB0F5A5043DE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69E665C320B18A859A114214 /* Pods-BrewAppsKishoreTask.debug.xcconfig */,
+				E8A207AAF4BF637B390FA66B /* Pods-BrewAppsKishoreTask.release.xcconfig */,
+				365A0EB4BC0347B98A4787B6 /* Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.debug.xcconfig */,
+				1B3B3EAB39D8038A10BE216C /* Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.release.xcconfig */,
+				1682989DB5EA619D743AD33F /* Pods-BrewAppsKishoreTaskTests.debug.xcconfig */,
+				A0A5AE99EB297059A5D74065 /* Pods-BrewAppsKishoreTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC9FB8F45EBB062AE313029C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CD9F8D842CE16C20B739745 /* Pods_BrewAppsKishoreTask.framework */,
+				CFE7BC34D1C548DB59BB510A /* Pods_BrewAppsKishoreTask_BrewAppsKishoreTaskUITests.framework */,
+				3C4A30AE1517852620B4A674 /* Pods_BrewAppsKishoreTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BAA2D16275656B400851C9B /* BrewAppsKishoreTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAA2D44275656CB00851C9B /* Build configuration list for PBXNativeTarget "BrewAppsKishoreTask" */;
+			buildPhases = (
+				2A5F76092AE26B7602F3D403 /* [CP] Check Pods Manifest.lock */,
+				7BAA2D13275656B400851C9B /* Sources */,
+				7BAA2D14275656B400851C9B /* Frameworks */,
+				7BAA2D15275656B400851C9B /* Resources */,
+				C6C12839A2EEC064ACDF4C53 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrewAppsKishoreTask;
+			productName = BrewAppsKishoreTask;
+			productReference = 7BAA2D17275656B400851C9B /* BrewAppsKishoreTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BAA2D2F275656CB00851C9B /* BrewAppsKishoreTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAA2D47275656CB00851C9B /* Build configuration list for PBXNativeTarget "BrewAppsKishoreTaskTests" */;
+			buildPhases = (
+				A9BAD3A28B8989DC84FAE76F /* [CP] Check Pods Manifest.lock */,
+				7BAA2D2C275656CB00851C9B /* Sources */,
+				7BAA2D2D275656CB00851C9B /* Frameworks */,
+				7BAA2D2E275656CB00851C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BAA2D32275656CB00851C9B /* PBXTargetDependency */,
+			);
+			name = BrewAppsKishoreTaskTests;
+			productName = BrewAppsKishoreTaskTests;
+			productReference = 7BAA2D30275656CB00851C9B /* BrewAppsKishoreTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BAA2D3A275656CB00851C9B /* BrewAppsKishoreTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAA2D4A275656CB00851C9B /* Build configuration list for PBXNativeTarget "BrewAppsKishoreTaskUITests" */;
+			buildPhases = (
+				8638737186542E9DBE1DF33D /* [CP] Check Pods Manifest.lock */,
+				7BAA2D37275656CB00851C9B /* Sources */,
+				7BAA2D38275656CB00851C9B /* Frameworks */,
+				7BAA2D39275656CB00851C9B /* Resources */,
+				977C7BDD02FD8FD05A7829E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BAA2D3D275656CB00851C9B /* PBXTargetDependency */,
+			);
+			name = BrewAppsKishoreTaskUITests;
+			productName = BrewAppsKishoreTaskUITests;
+			productReference = 7BAA2D3B275656CB00851C9B /* BrewAppsKishoreTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BAA2D0F275656B400851C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7BAA2D16275656B400851C9B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7BAA2D2F275656CB00851C9B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7BAA2D16275656B400851C9B;
+					};
+					7BAA2D3A275656CB00851C9B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7BAA2D16275656B400851C9B;
+					};
+				};
+			};
+			buildConfigurationList = 7BAA2D12275656B400851C9B /* Build configuration list for PBXProject "BrewAppsKishoreTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BAA2D0E275656B400851C9B;
+			productRefGroup = 7BAA2D18275656B400851C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BAA2D16275656B400851C9B /* BrewAppsKishoreTask */,
+				7BAA2D2F275656CB00851C9B /* BrewAppsKishoreTaskTests */,
+				7BAA2D3A275656CB00851C9B /* BrewAppsKishoreTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BAA2D15275656B400851C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B82AD472757470600111618 /* UnPopularMoviesCVC.xib in Resources */,
+				7BAA2D2A275656CA00851C9B /* LaunchScreen.storyboard in Resources */,
+				7BAA2D27275656CA00851C9B /* Assets.xcassets in Resources */,
+				7BAA2D22275656B400851C9B /* Main.storyboard in Resources */,
+				7B82AD40275746E800111618 /* PopularMoviesCVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAA2D2E275656CB00851C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAA2D39275656CB00851C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5F76092AE26B7602F3D403 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrewAppsKishoreTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8638737186542E9DBE1DF33D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		977C7BDD02FD8FD05A7829E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests/Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BAD3A28B8989DC84FAE76F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrewAppsKishoreTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C12839A2EEC064ACDF4C53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrewAppsKishoreTask/Pods-BrewAppsKishoreTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrewAppsKishoreTask/Pods-BrewAppsKishoreTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrewAppsKishoreTask/Pods-BrewAppsKishoreTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BAA2D13275656B400851C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAA2D25275656B500851C9B /* BrewAppsKishoreTask.xcdatamodeld in Sources */,
+				7BDD9AB427577E6000FC13EA /* MovieDetailVC.swift in Sources */,
+				7B2EB8612756683F00DA16E1 /* NowPlayingViewModel.swift in Sources */,
+				7BAA2D6F27565A5D00851C9B /* Connections.swift in Sources */,
+				7BAA2D7727565AC200851C9B /* APIList.swift in Sources */,
+				7BAA2D1F275656B400851C9B /* ViewController.swift in Sources */,
+				7BAA2D7C27565B4900851C9B /* ConstantsString.swift in Sources */,
+				7B82AD462757470600111618 /* UnPopularMoviesCVC.swift in Sources */,
+				7B82AD3F275746E800111618 /* PopularMoviesCVC.swift in Sources */,
+				7BDD9ACB2757927D00FC13EA /* CoreDataMain.xcdatamodeld in Sources */,
+				7B82AD2B27573B6200111618 /* TrailerViewModel.swift in Sources */,
+				7BAA2D1B275656B400851C9B /* AppDelegate.swift in Sources */,
+				7BAA2D5D2756593800851C9B /* CustomeView.swift in Sources */,
+				7B82AD3327573B8400111618 /* TrailerDataModel.swift in Sources */,
+				7BAA2D66275659A600851C9B /* GifImagesVC.swift in Sources */,
+				7B2EB8692756685400DA16E1 /* NowPlayingDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAA2D2C275656CB00851C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAA2D35275656CB00851C9B /* BrewAppsKishoreTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAA2D37275656CB00851C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAA2D40275656CB00851C9B /* BrewAppsKishoreTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BAA2D32275656CB00851C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BAA2D16275656B400851C9B /* BrewAppsKishoreTask */;
+			targetProxy = 7BAA2D31275656CB00851C9B /* PBXContainerItemProxy */;
+		};
+		7BAA2D3D275656CB00851C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BAA2D16275656B400851C9B /* BrewAppsKishoreTask */;
+			targetProxy = 7BAA2D3C275656CB00851C9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BAA2D20275656B400851C9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAA2D21275656B400851C9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BAA2D28275656CA00851C9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAA2D29275656CA00851C9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BAA2D42275656CB00851C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BAA2D43275656CB00851C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BAA2D45275656CB00851C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E665C320B18A859A114214 /* Pods-BrewAppsKishoreTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrewAppsKishoreTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brewapps.org.BrewAppsKishoreTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BAA2D46275656CB00851C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A207AAF4BF637B390FA66B /* Pods-BrewAppsKishoreTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrewAppsKishoreTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brewapps.org.BrewAppsKishoreTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BAA2D48275656CB00851C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1682989DB5EA619D743AD33F /* Pods-BrewAppsKishoreTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrewAppsKishoreTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brewapps.org.BrewAppsKishoreTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrewAppsKishoreTask.app/BrewAppsKishoreTask";
+			};
+			name = Debug;
+		};
+		7BAA2D49275656CB00851C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A5AE99EB297059A5D74065 /* Pods-BrewAppsKishoreTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrewAppsKishoreTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brewapps.org.BrewAppsKishoreTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrewAppsKishoreTask.app/BrewAppsKishoreTask";
+			};
+			name = Release;
+		};
+		7BAA2D4B275656CB00851C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365A0EB4BC0347B98A4787B6 /* Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrewAppsKishoreTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brewapps.org.BrewAppsKishoreTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrewAppsKishoreTask;
+			};
+			name = Debug;
+		};
+		7BAA2D4C275656CB00851C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3B3EAB39D8038A10BE216C /* Pods-BrewAppsKishoreTask-BrewAppsKishoreTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrewAppsKishoreTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brewapps.org.BrewAppsKishoreTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrewAppsKishoreTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BAA2D12275656B400851C9B /* Build configuration list for PBXProject "BrewAppsKishoreTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAA2D42275656CB00851C9B /* Debug */,
+				7BAA2D43275656CB00851C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAA2D44275656CB00851C9B /* Build configuration list for PBXNativeTarget "BrewAppsKishoreTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAA2D45275656CB00851C9B /* Debug */,
+				7BAA2D46275656CB00851C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAA2D47275656CB00851C9B /* Build configuration list for PBXNativeTarget "BrewAppsKishoreTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAA2D48275656CB00851C9B /* Debug */,
+				7BAA2D49275656CB00851C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAA2D4A275656CB00851C9B /* Build configuration list for PBXNativeTarget "BrewAppsKishoreTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAA2D4B275656CB00851C9B /* Debug */,
+				7BAA2D4C275656CB00851C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BAA2D23275656B500851C9B /* BrewAppsKishoreTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BAA2D24275656B500851C9B /* BrewAppsKishoreTask.xcdatamodel */,
+			);
+			currentVersion = 7BAA2D24275656B500851C9B /* BrewAppsKishoreTask.xcdatamodel */;
+			path = BrewAppsKishoreTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		7BDD9AC92757927D00FC13EA /* CoreDataMain.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BDD9ACA2757927D00FC13EA /* CoreDataMain.xcdatamodel */,
+			);
+			currentVersion = 7BDD9ACA2757927D00FC13EA /* CoreDataMain.xcdatamodel */;
+			path = CoreDataMain.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BAA2D0F275656B400851C9B /* Project object */;
+}
