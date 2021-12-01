@@ -125,6 +125,7 @@ class ViewController: UIViewController,UICollectionViewDelegate, UICollectionVie
             var storedObject = try moc.fetch(fetchMovieList)
             print(storedObject.count)
           //  for i in 0..<storedObject.count{
+        print(storedObject)
             var storedMO = storedObject[sender.tag] as! NSManagedObject
                 moc.delete(storedMO)
                 print("data deleted")
