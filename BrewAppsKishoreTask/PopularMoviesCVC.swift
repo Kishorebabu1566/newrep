@@ -8,7 +8,7 @@
 import UIKit
 
 class PopularMoviesCVC: UICollectionViewCell {
-
+    
     @IBOutlet weak var popularMovieImg: UIImageView!
     @IBOutlet weak var deleteBtn: UIButton!
     
@@ -16,5 +16,5 @@ class PopularMoviesCVC: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
 }

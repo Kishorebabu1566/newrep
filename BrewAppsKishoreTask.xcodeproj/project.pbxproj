@@ -25,7 +25,6 @@
 		7BAA2D35275656CB00851C9B /* BrewAppsKishoreTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D34275656CB00851C9B /* BrewAppsKishoreTaskTests.swift */; };
 		7BAA2D40275656CB00851C9B /* BrewAppsKishoreTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D3F275656CB00851C9B /* BrewAppsKishoreTaskUITests.swift */; };
 		7BAA2D5D2756593800851C9B /* CustomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D5B2756593800851C9B /* CustomeView.swift */; };
-		7BAA2D66275659A600851C9B /* GifImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D65275659A600851C9B /* GifImagesVC.swift */; };
 		7BAA2D6F27565A5D00851C9B /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D6E27565A5D00851C9B /* Connections.swift */; };
 		7BAA2D7727565AC200851C9B /* APIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D7627565AC200851C9B /* APIList.swift */; };
 		7BAA2D7C27565B4900851C9B /* ConstantsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA2D7B27565B4900851C9B /* ConstantsString.swift */; };
@@ -82,7 +81,6 @@
 		7BAA2D3F275656CB00851C9B /* BrewAppsKishoreTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewAppsKishoreTaskUITests.swift; sourceTree = "<group>"; };
 		7BAA2D41275656CB00851C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BAA2D5B2756593800851C9B /* CustomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeView.swift; sourceTree = "<group>"; };
-		7BAA2D65275659A600851C9B /* GifImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImagesVC.swift; sourceTree = "<group>"; };
 		7BAA2D6E27565A5D00851C9B /* Connections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connections.swift; sourceTree = "<group>"; };
 		7BAA2D7627565AC200851C9B /* APIList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIList.swift; sourceTree = "<group>"; };
 		7BAA2D7B27565B4900851C9B /* ConstantsString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsString.swift; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 				7B82AD29275739B800111618 /* TrailerModels */,
 				7B2EB85F2756681000DA16E1 /* NowPlayingModels */,
 				7BAA2D6D27565A2200851C9B /* API'S Models */,
-				7BAA2D612756595F00851C9B /* Gif's */,
 				7BAA2D1A275656B400851C9B /* AppDelegate.swift */,
 				7BAA2D1E275656B400851C9B /* ViewController.swift */,
 				7BAA2D5B2756593800851C9B /* CustomeView.swift */,
@@ -202,14 +199,6 @@
 				7BAA2D41275656CB00851C9B /* Info.plist */,
 			);
 			path = BrewAppsKishoreTaskUITests;
-			sourceTree = "<group>";
-		};
-		7BAA2D612756595F00851C9B /* Gif's */ = {
-			isa = PBXGroup;
-			children = (
-				7BAA2D65275659A600851C9B /* GifImagesVC.swift */,
-			);
-			path = "Gif's";
 			sourceTree = "<group>";
 		};
 		7BAA2D6D27565A2200851C9B /* API'S Models */ = {
@@ -499,7 +488,6 @@
 				7BAA2D1B275656B400851C9B /* AppDelegate.swift in Sources */,
 				7BAA2D5D2756593800851C9B /* CustomeView.swift in Sources */,
 				7B82AD3327573B8400111618 /* TrailerDataModel.swift in Sources */,
-				7BAA2D66275659A600851C9B /* GifImagesVC.swift in Sources */,
 				7B2EB8692756685400DA16E1 /* NowPlayingDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

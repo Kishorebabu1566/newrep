@@ -61,7 +61,7 @@
             </constraints>
             <size key="customSize" width="317" height="215"/>
             <connections>
-                <outlet property="deleteBtn" destination="7Ms-uu-hAp" id="Xcc-qG-BaB"/>
+                <outlet property="deleteBtn" destination="7Ms-uu-hAp" id="l0H-a5-YPr"/>
                 <outlet property="movieDescriptionLbl" destination="tDo-Kw-kf3" id="hKv-la-sfo"/>
                 <outlet property="movieTitleLbl" destination="vYM-zT-0CG" id="J6G-nC-04c"/>
                 <outlet property="unPopularMovieImg" destination="Jef-vD-Yin" id="p2D-7U-xQA"/>

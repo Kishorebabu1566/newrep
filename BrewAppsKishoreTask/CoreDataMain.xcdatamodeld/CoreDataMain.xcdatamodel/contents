@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H1519" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="MovieList" representedClassName="MovieList" syncable="YES" codeGenerationType="class">
+    <entity name="MovieList" representedClassName="MovieList" isAbstract="YES" syncable="YES" codeGenerationType="class">
         <attribute name="imagePath" optional="YES" attributeType="String"/>
         <attribute name="movieImage" optional="YES" attributeType="String"/>
         <attribute name="overview" optional="YES" attributeType="String"/>

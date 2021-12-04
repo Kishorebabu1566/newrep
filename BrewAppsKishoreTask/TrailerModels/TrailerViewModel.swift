@@ -42,7 +42,7 @@ class TrailerViewModel : NSObject {
                                             do
                 {
                     let response = try JSONDecoder().decode(TrailerData.self, from: result!)
-                    print("the trailer video res is \(response)")
+                   
                     DispatchQueue.main.async
                     {
                         self.delegate?.didRecieveTrailerUpdate(data: response)

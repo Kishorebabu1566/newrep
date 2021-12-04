@@ -43,7 +43,7 @@ class NowPlayingViewModel : NSObject {
                                             do
                 {
                     let response = try JSONDecoder().decode(NowPlayingData.self, from: result!)
-                    print("the now playing video res is \(response)")
+                   
                     DispatchQueue.main.async
                     {
                         self.delegate?.didRecieveNowPlaingUpdate(data: response)

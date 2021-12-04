@@ -8,7 +8,7 @@
 import UIKit
 
 class MovieDetailVC: UIViewController {
-
+    
     @IBOutlet weak var movieDetailImg: UIImageView!
     var imgURLString = ""
     override func viewDidLoad() {
@@ -16,18 +16,18 @@ class MovieDetailVC: UIViewController {
         
         let url = URL(string: imgURLString)
         let data = try? Data(contentsOf: url!)
-
+        
         if let imageData = data {
-        movieDetailImg.image = UIImage(data: imageData)
+            movieDetailImg.image = UIImage(data: imageData)
             movieDetailImg.contentMode = .scaleToFill
         }
         // Do any additional setup after loading the view.
     }
-   
+    
     
     @IBAction func backBtnAction(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
     
-
+    
 }
